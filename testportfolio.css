@@ -1,0 +1,189 @@
+body {
+  background-color: #808080;
+}
+.main-navbar {
+  background-color: #722872;
+  height: 55px;
+  position: fixed;
+  z-index: 3;
+  box-shadow: 0 0 5px 5px #6e6e6e;
+}
+#navbar-image {
+  height: 99%;
+  width: 55px;
+  display: inline-block;
+  margin-left: 30px;
+}
+.about-section {
+
+  background-color: #a9a9a9;
+  border: #2e2e2e solid 1px;
+  /* bottom right/left borders if preferred */
+  top: 55px;
+  justify-content:space-around;
+  height: auto;
+  box-shadow: 0 0 2px 2px #6e6e6e;
+}
+.about {
+  height: 360px;
+  background-color: #a9a9a9;
+  border: none;
+  margin-top: 45px;
+  height: auto;
+}
+.basic-text {
+  color: white;
+  font-size: 22px;
+}
+.basic-text-grey {
+  color: #808080;
+  font-size: 24px;
+}
+.centered-text {
+  text-align: center;
+}
+.navbar-links {
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin-right: 35px;
+}
+#navbar-items {
+  float: right;
+  margin-top: 13.25px;
+}
+.margin-navbar-links {
+  color: white;
+  border: 1px white solid;
+  padding: 7px;
+  border-radius: 10px;
+  transition: background-color .75s, color .75s;
+  -moz-transition: background-color .75s, color .75s;
+  -webkit-transition: background-color .75s, color .75s;
+}
+.margin-navbar-links:hover {
+    background-color: white;
+    color: #722872;
+}
+.no-link-decoration-navbar:hover {
+  text-decoration: none;
+}
+.no-link-decoration-navbar:visited {
+  text-decoration: none;
+}
+.no-link-decoration-navbar:link {
+  text-decoration: none;
+}
+#profile-photo {
+  margin: auto;
+  width: 230px;
+  height: 230px;
+  border-radius: 115px;
+  margin-top: -15px;
+  margin-bottom: 5px;
+}
+.portfolio-section {
+  height: auto;
+  background-color: #f2f2f2;
+  margin-top: 55px;
+  border: #2e2e2e solid 1px;
+  border-bottom: none;
+  border-top: none;
+  box-shadow: 0 0 1px 1px #6e6e6e;
+}
+.portfolio-title {
+  color: #808080;
+  font-size: 64px;
+  text-align: center;
+  font-family:  "Oswald", Helvetica, sans-serif;
+  border-bottom: 2px solid #808080;
+  padding-left: -225px;
+  padding-right: -225px;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+.portfolio {
+  height: auto;
+  background-color: #f2f2f2;
+  margin-top: 30px;
+  border-bottom: none;
+}
+#portfolio-buffer {
+  background-color: yellow;
+  height: 30px;
+  width: 30px;
+  float: left;
+}
+.portfolio-one {
+  background-color: #f2f2f2;
+  height: auto;
+}
+.portfolio-two {
+  background-color: #f2f2f2;
+  height: auto;
+}
+.portfolio-image {
+  margin-top: 15px;
+  z-index: 2;
+  height: 320px;
+}
+.bottom-image {
+  padding-bottom: 30px;
+}
+.contact-section {
+  height: auto;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 1px 1px #6e6e6e;
+  border: #2e2e2e solid 1px;
+  border-top: none;
+  border-bottom: none;
+}
+#contact-title {
+  color: #808080;
+  font-size: 64px;
+  text-align: center;
+  font-family:  "Oswald", Helvetica, sans-serif;
+  border-bottom: 2px solid #808080;
+  padding-left: -225px;
+  padding-right: -225px;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+.contact-one {
+  margin-top: 25px;
+  background-color: #f2f2f2;
+  height: auto;
+}
+.contact-two {
+  margin-top: 25px;
+  background-color: #f2f2f2;
+  height: auto;
+}
+.form-inputs {
+  width: 400px;
+  display: block;
+  margin:0 auto;
+}
+.form-input-message {
+  width: 450px;
+  display: block;
+  margin:0 auto;
+  height: 100px;
+}
+#submit-button {
+  height: 55px;
+  width: 155px;
+  display: block;
+  margin:0 auto;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.extra-info-div {
+  height: 65px;
+  background-color: #a9a9a9;
+}
+.filler-color-div {
+  height: 85px;
+  background-color: #722872;
+}
